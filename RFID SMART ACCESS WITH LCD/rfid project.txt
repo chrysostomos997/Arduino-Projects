@@ -1,0 +1,44 @@
+LCD 1602 MODULE PINS : 
+
+LCD ---  ARDUINO
+
+VSS --> 5V 
+VDD --> GROUND
+V0  --> POTENTIOMETER
+RS  --> D7 PWM 
+RW  --> GROUND
+E   --> D4 PWM 
+D4  --> D3 PWM
+D5  --> D11 PWM 
+D6  --> D12 PWM 
+D7  --> D13 PWM 
+
+
+------------------------------
+Passive buzzer     ARDUINO 
+ 
+buzzerpin      ---> D2 PWM AND GROUND
+
+------------------------------
+RTC MODULE   ARDUINO 
+
+VCC       --> 5V
+GROUND    --> GROUND
+CLK       --> D8 PWM 
+DA        --> D9 PWM  
+RST       --> D10 PWM 
+
+------------------------------
+
+RFID MODULE  ARDUINO 
+
+SDA      --> D53
+SCK      --> D52
+MOSI     --> D51  
+MISO     --> D50
+IRQ      --> --
+GROUND   --> GROUND
+RST      --> D5 PWM
+3.3V     --> 3.3V
+
+    
