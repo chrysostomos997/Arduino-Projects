@@ -12,3 +12,7 @@ It adds an extra layer of security to the system, as it allows the user to confi
 
 One of the great advantages of using an Arduino-based system for this project is the flexibility and customizability it offers.
 With the use of various sensors and modules, the system can be easily expanded to include features such as real-time monitoring, automatic alerts, and user logins.
+
+<p align="center">
+  <img src="RFID SMART ACCESS WITH LCD/Photos/rfid.gif" alt="description-of-your-gif" />
+</p>
