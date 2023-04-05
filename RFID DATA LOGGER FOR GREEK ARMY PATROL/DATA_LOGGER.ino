@@ -22,13 +22,12 @@ const int chipSelect = 4;
 void setup() {
   pinMode(Led_pin, OUTPUT);
   pinMode(Led_pinRED, OUTPUT);
-
-  Serial.begin(9600);
-
-  SPI.begin();
-  //myRTC.setDS1302Time(30, 36, 12, 2, 28, 3, 2023);
-  mfrc522.PCD_Init();
   pinMode(buzzerPin, OUTPUT);
+  Serial.begin(9600);
+  SPI.begin();
+  //myRTC.setDS1302Time(30, 36, 12, 2, 28, 3, 2023); // Run it only once 
+  mfrc522.PCD_Init();
+ 
   while (!Serial) {
     ;
   }
@@ -49,8 +48,6 @@ void setup() {
   delay(1000);
   digitalWrite(Led_pin, LOW);
 }
-
-
 
 
 void loop() {
@@ -87,14 +84,14 @@ void loop() {
       Serial.print("Message : ");
       content.toUpperCase();
       if (content.substring(1) == "D0 5D C5 25")
-      //  || content.substring(1) == "17 E2 45 1B")  MPOROUME NA ELEGXOUME EDW TIS KARTES
+      //  || content.substring(1) == "17 E2 45 1B")  We can control any card here with the UID 
 
       {
         tone(buzzerPin, 3000, 600);
         digitalWrite(Led_pin, HIGH);
         delay(1000);
         digitalWrite(Led_pin, LOW);
-        Serial.println("PERIPOLO");
+        Serial.println("PERIPOLO"); // PERIPOLO==PATROL 
         File dataFile = SD.open("data.txt", FILE_WRITE);
         dataFile.print("PERIPOLO");
         delay(1000);
@@ -108,7 +105,7 @@ void loop() {
         digitalWrite(Led_pin, HIGH);
         delay(1000);
         digitalWrite(Led_pin, LOW);
-        Serial.println(" EFODOS");
+        Serial.println(" EFODOS");  // EFODOS == PATROL FROM ARMY OFFICER 
         File dataFile = SD.open("data.txt", FILE_WRITE);
         dataFile.print("EFODOS");
         dataFile.print("  ");
@@ -117,11 +114,11 @@ void loop() {
         delay(1000);
       }
 
-      // Start printing elements as individuals
+      // WRITE DATA IN SD CARD AND PRINT THEM IN SERIAL MONITOR AS WELL.
       File dataFile = SD.open("data.txt", FILE_WRITE);
       Serial.print("IMEROMINIA :");
       dataFile.print("  ");
-      if (myRTC.dayofmonth < 10)
+      if (myRTC.dayofmonth < 10)  // FOR 5:3 --> 05:03
         Serial.print("0");
       Serial.print(myRTC.dayofmonth);
       if (myRTC.dayofmonth < 10)
