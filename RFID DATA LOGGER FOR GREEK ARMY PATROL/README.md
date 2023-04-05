@@ -66,7 +66,7 @@ This project provides an efficient and cost-effective solution for the Greek arm
 </p>
 
 
-Inside the sd card we have two items. One is data and the other the excel that saves the data. Peripolo is the Patrol and EFODOS is Patrol from Army officer.
+Inside the sd card we have two items. One is data (TAGS) and the other the excel that saves the data. Peripolo is the Patrol and EFODOS is Patrol from Army officer.When the day passed the Commander put his signature in excel.
 
 <table>
   <tr>
@@ -88,10 +88,13 @@ Inside the sd card we have two items. One is data and the other the excel that s
 
 <h1>PROBLEMS</h1>
 
+One of the problems I encountered was that the time recorded in the SD card was incorrect whenever a tag was triggered. This issue was caused by RF interference.
+
+RF interference is a common problem in electronic circuits, particularly in high-frequency applications such as wireless communication systems. It occurs when electromagnetic waves at radio frequencies interfere with the operation of electronic devices, causing noise, distortion, signal loss, or complete failure of the electronic device or circuit.
+
+One effective way to minimize the impact of RF interference is to physically separate circuits that are particularly sensitive to interference. This can be achieved by increasing the distance between the circuits or using shielding or other barriers to block the interference. In the photo provided, it appears that the two circuits have been separated from each other, likely resulting in reduced interference and improved performance.
 
 
-
-
-
+![Image description](https://github.com/chrysostomos997/Arduino-Projects/blob/ed1d791cb0caa58363329ed65e6555f3b4d3f6e1/RFID%20DATA%20LOGGER%20FOR%20GREEK%20ARMY%20PATROL/PHOTOS/STOP%20RF%20INTERFERENCE.jpg)
 
 
