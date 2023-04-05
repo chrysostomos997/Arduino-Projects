@@ -9,3 +9,7 @@ This repository contains a collection of Arduino projects that I have created to
 
 - Project 2 : DATA LOGGER MADE IT FOR GREEK ARMY 
 
+
+<p align="center">
+  <img src="" alt="your-image-description" width="400" />
+</p>
