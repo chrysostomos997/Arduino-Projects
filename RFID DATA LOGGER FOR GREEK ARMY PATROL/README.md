@@ -3,7 +3,7 @@
 This project was made during my mandatory 12 month service in Greek army. 
 
 The purpose of this project was to develop a data logger to help the Greek army save time during patrols. 
-The data logger was built using an Arduino Uno microcontroller, an RFID reader, an SD card module, and an RTC module. 
+The data logger was built using an Arduino Uno microcontroller, an RFID reader, an SD card module, an RTC module ,a passive buzzer and an reset button. 
 The system records the time and location of each patrol using the RFID reader and stores the data on the SD card.
 The RTC module ensures that the time stamps are accurate. The data can be easily accessed and analyzed after the patrol is completed, which can help with mission planning and analysis. 
 This project provides an efficient and cost-effective solution for the Greek army to streamline their patrol operations.
@@ -16,34 +16,34 @@ This project provides an efficient and cost-effective solution for the Greek arm
     <td>
       <figure>
         <img src="https://github.com/chrysostomos997/Arduino-Projects/blob/3e837ae898260a457f43b8fa9ae2d71168ee8ef2/RFID%20DATA%20LOGGER%20FOR%20GREEK%20ARMY%20PATROL/PHOTOS/DATA%20LOGGER.jpg" />
-        <figcaption>DATA LOGGER BOX</figcaption>
+        <figcaption></figcaption>
       </figure>
     </td>
     <td>
       <figure>
         <img src="https://github.com/chrysostomos997/Arduino-Projects/blob/3e837ae898260a457f43b8fa9ae2d71168ee8ef2/RFID%20DATA%20LOGGER%20FOR%20GREEK%20ARMY%20PATROL/PHOTOS/DATA%20LOGGER1%20.jpg" />
-        <figcaption>DATA LOGGER BOX</figcaption>
+        <figcaption></figcaption>
       </figure>
     </td>
   </tr>
 </table>
 
-**OPERATION:**
 
 
+<h1>OPERATION</h1>
 
 <table>
   <tr>
     <td>
       <figure>
         <img src="https://github.com/chrysostomos997/Arduino-Projects/blob/87a27933851ceeac2d464b676317bcfaeed742f1/RFID%20DATA%20LOGGER%20FOR%20GREEK%20ARMY%20PATROL/PHOTOS/Operation.gif" />
-        <figcaption>DATA LOGGER BOX</figcaption>
+        <figcaption></figcaption>
       </figure>
     </td>
     <td>
       <figure>
         <img src="https://github.com/chrysostomos997/Arduino-Projects/blob/d4828a4276a2e2ff3886e6c5231d81a49929b3ec/RFID%20DATA%20LOGGER%20FOR%20GREEK%20ARMY%20PATROL/PHOTOS/SD%20CARD%20ERROR.gif" />
-        <figcaption>DATA LOGGER BOX</figcaption>
+        <figcaption></figcaption>
       </figure>
     </td>
   </tr>
@@ -52,8 +52,46 @@ This project provides an efficient and cost-effective solution for the Greek arm
 
 
 
+<h1>SHEMATIC OF DATA LOGGER</h1>
 
 ![Image description](https://github.com/chrysostomos997/Arduino-Projects/blob/d4828a4276a2e2ff3886e6c5231d81a49929b3ec/RFID%20DATA%20LOGGER%20FOR%20GREEK%20ARMY%20PATROL/PHOTOS/ARDUINO%20UNO%20SHEMATIC.png)
+
+
+
+
+<h1>DATA STORAGE</h1>
+
+<p align="center">
+  <img src="https://github.com/chrysostomos997/Arduino-Projects/blob/a03a9fb377990ad98a128aa16d1a5385d0196c0b/RFID%20DATA%20LOGGER%20FOR%20GREEK%20ARMY%20PATROL/PHOTOS/SD%20CARD.jpg" alt="your-image-description" width="400" />
+</p>
+
+
+Inside the sd card we have two items. One is data and the other the excel that saves the data. Peripolo is the Patrol and EFODOS is Patrol from Army officer.
+
+<table>
+  <tr>
+    <td>
+      <figure>
+        <img src="https://github.com/chrysostomos997/Arduino-Projects/blob/a03a9fb377990ad98a128aa16d1a5385d0196c0b/RFID%20DATA%20LOGGER%20FOR%20GREEK%20ARMY%20PATROL/PHOTOS/data.jpg" />
+        <figcaption></figcaption>
+      </figure>
+    </td>
+    <td>
+      <figure>
+        <img src="https://github.com/chrysostomos997/Arduino-Projects/blob/a03a9fb377990ad98a128aa16d1a5385d0196c0b/RFID%20DATA%20LOGGER%20FOR%20GREEK%20ARMY%20PATROL/PHOTOS/Excel.jpg" />
+        <figcaption></figcaption>
+      </figure>
+    </td>
+  </tr>
+</table>
+
+
+<h1>PROBLEMS</h1>
+
+
+
+
+
 
 
 
