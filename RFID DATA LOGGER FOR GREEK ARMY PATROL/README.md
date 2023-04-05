@@ -66,7 +66,7 @@ This project provides an efficient and cost-effective solution for the Greek arm
 </p>
 
 
-Inside the sd card we have two items. One is data (TAGS) and the other the excel that saves the data. Peripolo is the Patrol and EFODOS is Patrol from Army officer.When the day passed the Commander put his signature in excel.
+Inside the SD card, there are two items: data (tags) and an Excel file that contains the data. "Peripolo" refers to patrol activities, while "EFODOS" refers to patrols conducted by Army officers. At the end of each day, the commanding officer signs the Excel file to certify the accuracy of the data.
 
 <table>
   <tr>
