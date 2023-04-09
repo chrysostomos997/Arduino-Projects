@@ -54,7 +54,7 @@ This project provides an efficient and cost-effective solution for the Greek arm
 
 <h1>SHEMATIC OF DATA LOGGER</h1>
 
-![Image description](https://github.com/chrysostomos997/Arduino-Projects/blob/d4828a4276a2e2ff3886e6c5231d81a49929b3ec/RFID%20DATA%20LOGGER%20FOR%20GREEK%20ARMY%20PATROL/PHOTOS/ARDUINO%20UNO%20SHEMATIC.png)
+![Image description](https://github.com/chrysostomos997/Arduino-Projects/blob/6cae8a543df1a9808042c0eb21c0a6e54174da21/RFID%20DATA%20LOGGER%20FOR%20GREEK%20ARMY%20PATROL/PHOTOS/SHEMATIC.jpg)
 
 
 
