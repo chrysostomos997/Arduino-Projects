@@ -1,0 +1,40 @@
+------------------------------
+Passive buzzer     ARDUINO 
+ 
+buzzerpin      ---> D3 PWM AND GROUND
+
+------------------------------
+
+Led Green  ---> D6 PWM
+Led Red    ---> D2 PWM
+-----------------------------
+RTC MODULE   ARDUINO 
+
+VCC       --> 5V
+GROUND    --> GROUND
+CLK       --> D5 PWM 
+DA        --> D7 PWM  
+RST       --> D8 PWM 
+
+------------------------------
+RFID MODULE  ARDUINO 
+
+SDA      --> D10
+SCK      --> D13
+MOSI     --> D11  
+MISO     --> D12
+IRQ      --> --
+GROUND   --> GROUND
+RST      --> D9 PWM
+3.3V     --> 3.3V
+
+-----------------------------
+microSD MODULE  ARDUINO 
+
+GND           --> GND
+VCC           --> 5V
+MISO          --> D12 (ME 330Ω)  
+MOSI          --> D11
+SCK           --> D13
+CS            --> D4 
+
