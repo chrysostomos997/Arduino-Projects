@@ -33,7 +33,7 @@ microSD MODULE  ARDUINO
 
 GND           --> GND
 VCC           --> 5V
-MISO          --> D12 (ME 330Ω)  
+MISO          --> D12 (with 330Ω)  
 MOSI          --> D11
 SCK           --> D13
 CS            --> D4 
