@@ -1,4 +1,4 @@
-# RFID DATA LOGGER FOR GREEK ARMY PATROL 
+# DATA LOGGER FOR GREEK ARMY PATROL 
 
 This project was made during my mandatory 12 month service in Greek army. 
 
