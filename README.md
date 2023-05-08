@@ -7,7 +7,9 @@ This repository contains a collection of Arduino projects that I have created to
 
 - Project 1 : RFID SMART ACCESS WITH LCD .<br>
 
-- Project 2 : DATA LOGGER MADE IT FOR GREEK ARMY 
+- Project 2 : DATA LOGGER MADE IT FOR GREEK ARMY
+
+- Project 3 : EMPLOYEE ATTENDANCE TRACKING SYSTEM FOR THE GREEK ARMY
 
 
 <p align="center">
