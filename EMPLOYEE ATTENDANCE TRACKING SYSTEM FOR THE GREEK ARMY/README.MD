@@ -1,5 +1,7 @@
 # EMPLOYEE ATTENDACE TRACKING SYSTEM FOR THE GREEK ARMY 
 
+This project was made during my mandatory 12 month service in Greek army.
+
 This project aims to develop an efficient employee attendance tracking system for the Greek Army, utilizing Arduino Uno, RFID reader, RTC module, and SD card module. The system is designed to accurately monitor and record the arrival times of 70 officers equipped with RFID cards. By leveraging these hardware components, the project enables seamless data collection, storage, and analysis, promoting effective workforce management within the Greek Army.
 
 The Arduino Uno serves as the central controller, facilitating communication between the RFID reader and the RTC module. The RFID reader scans the unique identifiers embedded in the RFID cards, identifying each officer as they enter the premises. The RTC module ensures precise timekeeping, synchronizing with the system's internal clock to maintain accurate timestamp records.
