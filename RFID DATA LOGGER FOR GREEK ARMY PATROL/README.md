@@ -86,7 +86,7 @@ Inside the SD card, there are two items: data (tags) and an Excel file that cont
 </table>
 
 
-<h1>PROBLEMS</h1>
+<!-- <h1>PROBLEMS</h1>
 
 One of the problems I encountered was that the time recorded in the SD card was incorrect whenever a tag was triggered. This issue was caused by RF interference.
 
@@ -96,5 +96,5 @@ One effective way to minimize the impact of RF interference is to physically sep
 
 
 ![Image description](https://github.com/chrysostomos997/Arduino-Projects/blob/ed1d791cb0caa58363329ed65e6555f3b4d3f6e1/RFID%20DATA%20LOGGER%20FOR%20GREEK%20ARMY%20PATROL/PHOTOS/STOP%20RF%20INTERFERENCE.jpg)
-
+ -->
 
