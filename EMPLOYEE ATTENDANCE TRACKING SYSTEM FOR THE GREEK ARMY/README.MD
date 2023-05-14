@@ -39,7 +39,7 @@ If a new card is detected, the code reads the card's unique identifier (UID) and
   <img src="https://github.com/chrysostomos997/Arduino-Projects/blob/cde252b33542b37a8cf1b955e43b2608103d3989/EMPLOYEE%20ATTENDANCE%20TRACKING%20SYSTEM%20FOR%20THE%20GREEK%20ARMY/data.jpg" alt="DATA FILE" width="400" />
 </p>
 
-#EXCEL
+<h1>EXCEL</h1> 
 <p align="center">
   <img src="https://github.com/chrysostomos997/Arduino-Projects/blob/4636f45e0ae0183fcf4ebaa4ac8f8b843606ba27/EMPLOYEE%20ATTENDANCE%20TRACKING%20SYSTEM%20FOR%20THE%20GREEK%20ARMY/excel.jpg" alt="DATA FILE" width="400" />
 </p>
