@@ -9,7 +9,7 @@ The code includes the required libraries and defines the necessary pins for the 
 If a new card is detected, the code reads the card's unique identifier (UID) and searches for a match in the "uids.txt" file stored on the SD card. If a match is found, it retrieves the corresponding name from the "names.txt" file and saves it in the "data.txt" file. The current date and time from the RTC are also appended to the "data.txt" file.
 
 
-<!-- <table>
+<table>
   <tr>
     <td>
       <figure>
