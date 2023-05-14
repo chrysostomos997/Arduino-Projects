@@ -39,7 +39,10 @@ If a new card is detected, the code reads the card's unique identifier (UID) and
   <img src="https://github.com/chrysostomos997/Arduino-Projects/blob/cde252b33542b37a8cf1b955e43b2608103d3989/EMPLOYEE%20ATTENDANCE%20TRACKING%20SYSTEM%20FOR%20THE%20GREEK%20ARMY/data.jpg" alt="DATA FILE" width="400" />
 </p>
 
-<h1>EXCEL</h1> 
+Overall, this code allows for logging the RFID card UID, associated name, and the timestamp of each card swipe onto the SD card.
+
+Please note that the code snippet provided might require additional setup or modifications to work correctly in your specific Arduino environment.
+Also, we can move the data in excel like in the photo : 
 <p align="center">
   <img src="https://github.com/chrysostomos997/Arduino-Projects/blob/4636f45e0ae0183fcf4ebaa4ac8f8b843606ba27/EMPLOYEE%20ATTENDANCE%20TRACKING%20SYSTEM%20FOR%20THE%20GREEK%20ARMY/excel.jpg" alt="DATA FILE" width="400" />
 </p>
@@ -47,9 +50,6 @@ If a new card is detected, the code reads the card's unique identifier (UID) and
 
 
 
-Overall, this code allows for logging the RFID card UID, associated name, and the timestamp of each card swipe onto the SD card.
-
-Please note that the code snippet provided might require additional setup or modifications to work correctly in your specific Arduino environment.
 
 In conclusion, this project presents an effective solution for monitoring and recording officer arrival times within the Greek Army, utilizing Arduino Uno, RFID reader, RTC module, and SD card module. By leveraging these technologies, the Greek Army can streamline their attendance tracking processes, foster punctuality among officers, and optimize workforce management strategies to ensure operational excellence.
  -->
