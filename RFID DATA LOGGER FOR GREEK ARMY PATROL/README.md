@@ -11,25 +11,6 @@ This project provides an efficient and cost-effective solution for the Greek arm
 **Here some Photos of the Data logger:**
 
 
-<table>
-  <tr>
-    <td>
-      <figure>
-        <img src="https://github.com/chrysostomos997/Arduino-Projects/blob/3e837ae898260a457f43b8fa9ae2d71168ee8ef2/RFID%20DATA%20LOGGER%20FOR%20GREEK%20ARMY%20PATROL/PHOTOS/DATA%20LOGGER.jpg" />
-        <figcaption></figcaption>
-      </figure>
-    </td>
-    <td>
-      <figure>
-        <img src="https://github.com/chrysostomos997/Arduino-Projects/blob/3e837ae898260a457f43b8fa9ae2d71168ee8ef2/RFID%20DATA%20LOGGER%20FOR%20GREEK%20ARMY%20PATROL/PHOTOS/DATA%20LOGGER1%20.jpg" />
-        <figcaption></figcaption>
-      </figure>
-    </td>
-  </tr>
-</table>
-
-
-
 <h1>OPERATION</h1>
 
 <table>
@@ -41,6 +22,12 @@ This project provides an efficient and cost-effective solution for the Greek arm
       </figure>
     </td>
     <td>
+      <figure>
+        <img src="https://github.com/chrysostomos997/Arduino-Projects/blob/3cce6d46f0b5ac022c5ca939e28db8ef5da5d733/RFID%20DATA%20LOGGER%20FOR%20GREEK%20ARMY%20PATROL/PHOTOS/data_loggers.gif" />
+        <figcaption></figcaption>
+      </figure>
+    </td>
+        <td>
       <figure>
         <img src="https://github.com/chrysostomos997/Arduino-Projects/blob/d4828a4276a2e2ff3886e6c5231d81a49929b3ec/RFID%20DATA%20LOGGER%20FOR%20GREEK%20ARMY%20PATROL/PHOTOS/SD%20CARD%20ERROR.gif" />
         <figcaption></figcaption>
