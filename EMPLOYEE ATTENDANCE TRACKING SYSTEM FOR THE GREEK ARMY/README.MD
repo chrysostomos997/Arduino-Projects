@@ -15,22 +15,25 @@ If a new card is detected, the code reads the card's unique identifier (UID) and
 </p>
 
 
+
 <table>
   <tr>
     <td>
       <figure>
         <img src="https://github.com/chrysostomos997/Arduino-Projects/blob/5343e720b6d65f184505c504fae7895be96f2f0a/EMPLOYEE%20ATTENDANCE%20TRACKING%20SYSTEM%20FOR%20THE%20GREEK%20ARMY/uids.jpg" />
-        <figcaption></figcaption>
+        <figcaption>UIDS FILE</figcaption>
       </figure>
     </td>
     <td>
       <figure>
         <img src="https://github.com/chrysostomos997/Arduino-Projects/blob/5343e720b6d65f184505c504fae7895be96f2f0a/EMPLOYEE%20ATTENDANCE%20TRACKING%20SYSTEM%20FOR%20THE%20GREEK%20ARMY/names.jpg" />
-        <figcaption></figcaption>
+        <figcaption>NAMES FILE</figcaption>
       </figure>
     </td>
   </tr>
 </table>
+
+
 
 
 
