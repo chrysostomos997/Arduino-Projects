@@ -8,6 +8,12 @@ The code includes the required libraries and defines the necessary pins for the 
 
 If a new card is detected, the code reads the card's unique identifier (UID) and searches for a match in the "uids.txt" file stored on the SD card. If a match is found, it retrieves the corresponding name from the "names.txt" file and saves it in the "data.txt" file. The current date and time from the RTC are also appended to the "data.txt" file.
 
+<h1>SD CARD</h1>
+
+<p align="center">
+  <img src="https://github.com/chrysostomos997/Arduino-Projects/blob/497716ed01c1e46fc865472d70539c5d09d5177c/EMPLOYEE%20ATTENDANCE%20TRACKING%20SYSTEM%20FOR%20THE%20GREEK%20ARMY/MICRO%20SD%20CARD.jpg" alt="your-image-description" width="400" />
+</p>
+
 
 <table>
   <tr>
