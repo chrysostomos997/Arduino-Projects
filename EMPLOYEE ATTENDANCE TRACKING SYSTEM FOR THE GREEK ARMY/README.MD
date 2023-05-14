@@ -6,8 +6,8 @@ This project aims to develop an efficient employee attendance tracking system fo
 
 The code includes the required libraries and defines the necessary pins for the RFID module, LEDs, buzzer, RTC, and SD card module. In the setup function, it initializes the necessary components, sets the current date and time for the RTC, and performs SD card initialization. The loop function continuously checks for the presence of an RFID card.
 
-If a new card is detected, the code reads the card's unique identifier (UID) and searches for a match in the "uids.txt" file stored on the SD card. If a match is found, it retrieves the corresponding name from the "names.txt" file* and saves it in the "data.txt" file. The current date and time from the RTC are also appended to the "data.txt" file.
-* With black colour are the names of the officers
+If a new card is detected, the code reads the card's unique identifier (UID) and searches for a match in the "uids.txt" file stored on the SD card. If a match is found, it retrieves the corresponding name (black colour) from the "names.txt" file  and saves it in the "data.txt" file. The current date and time from the RTC are also appended to the "data.txt" file.
+
 <h1>SD CARD</h1> 
 
 <p align="center">
